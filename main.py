@@ -5,7 +5,7 @@ import PyPDF2
 from typing import List
 
 # Configuration
-hf_api_key = os.getenv("HUGGINGFACE_API_KEY")
+hf_api_key = os.getenv("HUG_API_KEY")
 USE_MOCK = True  # use deterministic mock embeddings for local runs
 
 EMBED_DIM = 384
